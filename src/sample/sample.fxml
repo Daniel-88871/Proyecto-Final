@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" prefHeight="623.0" prefWidth="1054.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="623.0" prefWidth="1070.0">
+         <children>
+            <ImageView fitHeight="629.0" fitWidth="1054.0" layoutY="-3.0">
+               <image>
+                  <Image url="@../../../../Baixades/Fondo.jpg" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="305.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="M1N1GAM3S" textAlignment="CENTER" wrappingWidth="438.94970703125">
+               <font>
+                  <Font size="66.0" />
+               </font>
+            </Text>
+            <Button layoutX="176.0" layoutY="229.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="696.0" text="Tres en raya" />
+            <Button layoutX="176.0" layoutY="349.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="696.0" text="Mage Jump!" />
+            <Button layoutX="176.0" layoutY="468.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="696.0" text="Memory Game" />
+            <Button layoutX="35.0" layoutY="230.0" mnemonicParsing="false" prefHeight="342.0" prefWidth="109.0" text="Salir" underline="true" />
+            <Button layoutX="906.0" layoutY="229.0" mnemonicParsing="false" prefHeight="342.0" prefWidth="109.0" text="Ayuda" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
