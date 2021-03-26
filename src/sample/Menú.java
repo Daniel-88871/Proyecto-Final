@@ -2,6 +2,9 @@ package sample;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
+import sample.Pong.Pong;
+import sample.Runner.Runner;
+import sample.TresEnRaya.TresEnRaya;
 
 import java.util.Scanner;
 
@@ -12,14 +15,14 @@ public class Menú extends Application {
     }
 
     private Scanner scanner = new Scanner(System.in);
-    Game1 game1;
-    Game2 game2;
-    Game3 game3;
+    Pong pong;
+    Runner runner;
+    TresEnRaya tresEnRaya;
 
-    public void MenuExample(Game1 game1, Game2 game2, Game3 game3) {
-        this.game1 = game1;
-        this.game2 = game2;
-        this.game3 = game3;
+    public void MenuExample(Pong pong, Runner runner, TresEnRaya tresEnRaya) {
+        this.pong = pong;
+        this.runner = runner;
+        this.tresEnRaya = tresEnRaya;
     }
 
     public void show() {
@@ -28,7 +31,7 @@ public class Menú extends Application {
 
     private void menuPricipal() {
         int option;
-        for () {
+        for() {
             System.out.println("1. Tres en raya");
             System.out.println("2. Mage Jump");
             System.out.println("3. Memory Game");
@@ -37,13 +40,13 @@ public class Menú extends Application {
             scanner.nextLine();
             switch (option) {
                 case 1:
-                    game1.play();
+                    pong.play();
                     break;
                 case 2:
-                    game2.play();
+                    runner.play();
                     break;
                 case 3:
-                    game3.play();
+                    tresEnRaya.play();
                     break;
                 case 4:
                     break;
